@@ -1,5 +1,6 @@
 <?php
 
+// enqueue css, js and jquery
 function scripts() {
 
     wp_register_style('style', get_template_directory_uri() . '/dist/app.css', [], 1, 'all');
